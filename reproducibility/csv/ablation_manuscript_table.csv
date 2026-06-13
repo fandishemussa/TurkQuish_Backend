@@ -1,0 +1,9 @@
+Feature setting,Lexical/structural,Brand/adversarial,Turkish linguistic,Graph infrastructure,No. features,Binary AUC,Binary F1,Binary MCC,Five-class macro-F1,Five-class weighted-F1,Δ macro-F1 vs A1,Inference ms/URL
+A1: Lexical + structural only,✓,—,—,—,56,0.9956 ± 0.0017,0.9845 ± 0.0053,0.9009 ± 0.0300,0.8513 ± 0.0099,0.8569 ± 0.0071,+0.0000,0.0867 ± 0.0019
+A2: Lexical + structural + adversarial/brand,✓,✓,—,—,94,0.9960 ± 0.0014,0.9852 ± 0.0052,0.9048 ± 0.0284,0.8686 ± 0.0091,0.8672 ± 0.0074,+0.0173,0.0825 ± 0.0099
+A3: Lexical + structural + Turkish linguistic,✓,—,✓,—,81,0.9967 ± 0.0008,0.9869 ± 0.0031,0.9152 ± 0.0160,0.8756 ± 0.0051,0.8833 ± 0.0028,+0.0243,0.0871 ± 0.0025
+A4: Lexical + structural + graph-based infrastructure,✓,—,—,✓,72,0.9983 ± 0.0013,0.9920 ± 0.0034,0.9484 ± 0.0211,0.8798 ± 0.0078,0.8905 ± 0.0040,+0.0285,0.0859 ± 0.0012
+A5: Lexical + structural + adversarial/brand + Turkish linguistic,✓,✓,✓,—,119,0.9969 ± 0.0007,0.9871 ± 0.0029,0.9168 ± 0.0133,0.8878 ± 0.0054,0.8896 ± 0.0039,+0.0365,0.0903 ± 0.0018
+A6: Lexical + structural + adversarial/brand + Turkish linguistic + graph,✓,✓,✓,✓,135,0.9987 ± 0.0007,0.9927 ± 0.0032,0.9531 ± 0.0194,0.9047 ± 0.0072,0.9118 ± 0.0046,+0.0534,0.0899 ± 0.0034
+"A7: Full retained feature set, artifact-controlled",✓,✓,✓,✓,135,0.9987 ± 0.0007,0.9927 ± 0.0032,0.9531 ± 0.0195,0.9047 ± 0.0072,0.9118 ± 0.0046,+0.0534,0.0904 ± 0.0035
+"A8: Full retained feature set, artifact-controlled, inductive graph projection",✓,✓,✓,✓,135,0.9987 ± 0.0007,0.9927 ± 0.0032,0.9531 ± 0.0195,0.9047 ± 0.0072,0.9118 ± 0.0046,+0.0534,0.0918 ± 0.0024
