@@ -313,7 +313,6 @@ These results represent prototype-level runtime behaviour under an experimental 
 
 The load-test results characterize a single backend instance and motivate future work on multi-worker serving, containerized deployment, load balancing, and horizontal scaling.
 
----
 
 ## Model and Feature Pipeline
 
