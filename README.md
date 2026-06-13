@@ -1,4 +1,4 @@
-# TurkQuish Backend 🚀
+# TurkQuish Backend 
 
 FastAPI backend for the TurkQuish QR-code URL threat detection prototype.
 
