@@ -1,0 +1,38 @@
+{
+  "threshold_type": "malicious_risk_threshold",
+  "created_at": "2026-06-10T19:59:58.546456Z",
+  "risk_score_formula": "1 - P(benign)",
+  "benign_class_name": "benign",
+  "threshold": 0.5,
+  "decision_rule": {
+    "benign": "risk_score < threshold",
+    "suspicious_or_malicious": "risk_score >= threshold"
+  },
+  "recommended_action_rules": [
+    {
+      "min": 0.0,
+      "max": 0.3,
+      "action": "proceed",
+      "riskLevel": "low"
+    },
+    {
+      "min": 0.3,
+      "max": 0.6,
+      "action": "caution",
+      "riskLevel": "medium"
+    },
+    {
+      "min": 0.6,
+      "max": 0.85,
+      "action": "block",
+      "riskLevel": "high"
+    },
+    {
+      "min": 0.85,
+      "max": 1.01,
+      "action": "report",
+      "riskLevel": "critical"
+    }
+  ],
+  "note": "Default threshold is 0.50. Replace this with a threshold selected on a true validation fold if needed."
+}

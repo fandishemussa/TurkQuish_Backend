@@ -1,0 +1,52 @@
+{
+  "version": "turkquish-explanations-5class-v1",
+  "created_at": "2026-06-10T20:00:13.581812Z",
+  "languages": [
+    "en",
+    "tr"
+  ],
+  "class_templates": {
+    "benign": {
+      "en": "The URL appears structurally consistent with benign URLs in the training corpus.",
+      "tr": "URL, eğitim verisindeki güvenli URL yapılarıyla uyumlu görünüyor."
+    },
+    "phishing": {
+      "en": "The URL contains credential, login, verification, account, or brand-impersonation signals.",
+      "tr": "URL; giriş, doğrulama, hesap veya marka taklidiyle ilişkili sinyaller içeriyor."
+    },
+    "malware": {
+      "en": "The URL contains download, executable, payload, update, or malware-delivery indicators.",
+      "tr": "URL; indirme, çalıştırılabilir dosya, zararlı yük, güncelleme veya kötü amaçlı yazılım dağıtım göstergeleri içeriyor."
+    },
+    "scam": {
+      "en": "The URL contains prize, investment, gambling, fake-offer, or social-engineering scam indicators.",
+      "tr": "URL; ödül, yatırım, bahis, sahte teklif veya sosyal mühendislik dolandırıcılığı göstergeleri içeriyor."
+    },
+    "other_malicious": {
+      "en": "The URL shows suspicious infrastructure or campaign-level patterns that do not cleanly fit phishing, malware, or scam.",
+      "tr": "URL; kimlik avı, kötü amaçlı yazılım veya dolandırıcılık sınıflarına tam uymayan şüpheli altyapı veya kampanya örüntüleri gösteriyor."
+    }
+  },
+  "feature_group_templates": {
+    "lexical_structural": {
+      "en": "Lexical and structural URL patterns contributed to the decision.",
+      "tr": "URL'nin sözcüksel ve yapısal özellikleri karara katkı sağladı."
+    },
+    "lexical_keyword": {
+      "en": "Threat-related keyword patterns contributed to the decision.",
+      "tr": "Tehdit ile ilişkili anahtar kelime örüntüleri karara katkı sağladı."
+    },
+    "turkish_linguistic": {
+      "en": "Turkish linguistic or localized threat features contributed to the decision.",
+      "tr": "Türkçe dilsel özellikler veya yerelleştirilmiş tehdit özellikleri karara katkı sağladı."
+    },
+    "adversarial_brand": {
+      "en": "Brand impersonation, typosquatting, or adversarial naming signals contributed to the decision.",
+      "tr": "Marka taklidi, yazım benzerliği veya saldırgan adlandırma sinyalleri karara katkı sağladı."
+    },
+    "graph_infrastructure": {
+      "en": "Frozen graph-based campaign infrastructure features contributed to the decision.",
+      "tr": "Dondurulmuş grafik tabanlı kampanya altyapısı özellikleri karara katkı sağladı."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Five-fold CV results for 5class task (135 features, domain-insulated folds). Mean $\pm$ std reported across 5 folds. LogisticRegression uses StandardScaler; all tree models are scale-invariant.}
+\label{tab:cv_5class}
+\begin{tabular}{llllll}
+\toprule
+Model & Macro-F$_1$ & MCC & ROC-AUC & PR-AUC & Train (s) \\
+\midrule
+HistGB & $0.907\pm0.009$ & $0.872\pm0.007$ & $0.9814\pm0.0019$ & $0.938$ & 508 \\
+LightGBM & $0.885\pm0.008$ & $0.861\pm0.006$ & $0.9803\pm0.0019$ & $0.936$ & 145 \\
+XGBoost & $0.890\pm0.007$ & $0.845\pm0.008$ & $0.9753\pm0.0024$ & $0.925$ & 177 \\
+RandomForest & $0.862\pm0.005$ & $0.818\pm0.004$ & $0.9698\pm0.0012$ & $0.909$ & 161 \\
+ExtraTrees & $0.803\pm0.004$ & $0.726\pm0.008$ & $0.9543\pm0.0008$ & $0.867$ & 105 \\
+LogisticRegression & $0.803\pm0.006$ & $0.750\pm0.007$ & $0.9529\pm0.0034$ & $0.859$ & 420 \\
+ComplementNB & $0.659\pm0.010$ & $0.527\pm0.012$ & $0.8564\pm0.0026$ & $0.702$ & 19 \\
+\bottomrule
+\end{tabular}
+\end{table}

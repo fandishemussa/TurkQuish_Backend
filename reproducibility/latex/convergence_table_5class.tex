@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Multi-method feature importance convergence for the 5class task (top-20 overlap). Spearman rank correlation between SHAP and permutation importance: $\rho=0.765$. Small rank differences indicate high method agreement, confirming feature importance stability.}
+\label{tab:convergence_5class}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+Feature & SHAP rank & Perm rank & $|\Delta|$ \\
+\midrule
+has\_malware\_keyword & 1 & 1 & 0 \\
+has\_scam\_keyword & 2 & 2 & 0 \\
+domain\_ngram\_cluster & 3 & 3 & 0 \\
+path\_len & 4 & 4 & 0 \\
+domain\_family\_size & 5 & 7 & 2 \\
+tld\_len & 6 & 8 & 2 \\
+is\_suspicious\_tld & 7 & 6 & 1 \\
+max\_token\_cluster\_size & 8 & 10 & 2 \\
+tld\_token\_cooccur & 9 & 19 & 10 \\
+registrant\_pattern\_score & 10 & 18 & 8 \\
+\bottomrule
+\end{tabular}
+\end{table}

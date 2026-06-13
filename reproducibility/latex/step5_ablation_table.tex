@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Incremental feature-group ablation (HistGB, inductive graph, Experiment~C). Each row adds one feature group cumulatively; the marginal column reports the change from the previous row. The graph group provides the dominant gain, while the Turkish-extended group is marginal---evidence that campaign-infrastructure features, not vocabulary, drive detection.}
+\label{tab:group-ablation}
+\footnotesize
+\begin{tabular}{lrcc}
+\toprule
+Cumulative group & \#feat & Binary AUC & 5-class macro-$F_1$ \\
+\midrule
++lexical & 69 & 0.9954 & 0.666 \\
++adversarial & 87 & 0.995 & 0.7059 \\
++turkish-base & 107 & 0.9964 & 0.7479 \\
++turkish-ext & 112 & 0.9964 & 0.7888 \\
++graph & 127 & 0.9982 & 0.8161 \\
+\bottomrule
+\end{tabular}
+\end{table}

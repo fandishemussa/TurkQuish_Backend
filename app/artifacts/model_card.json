@@ -1,0 +1,45 @@
+{
+  "model_name": "TurkQuish HistGB 5-class URL-only classifier",
+  "model_version": "turkquish-histgb-5class-v1",
+  "created_at": "2026-06-10T20:00:13.588019Z",
+  "task": "five_class_url_threat_classification",
+  "classes": [
+    "benign",
+    "phishing",
+    "malware",
+    "scam",
+    "other_malicious"
+  ],
+  "class_mapping": {
+    "0": "benign",
+    "1": "phishing",
+    "2": "malware",
+    "3": "scam",
+    "4": "other_malicious"
+  },
+  "model_type": "<class 'sklearn.ensemble._hist_gradient_boosting.gradient_boosting.HistGradientBoostingClassifier'>",
+  "feature_schema_version": "tumc-135-5class-v1",
+  "n_features": 135,
+  "source_feature_file": "features_full_final_inductive_dedup.csv",
+  "target_column": "class_enc",
+  "url_only": true,
+  "network_features_used": false,
+  "forbidden_runtime_actions": [
+    "DNS lookup",
+    "WHOIS lookup",
+    "HTML retrieval",
+    "webpage screenshot",
+    "third-party reputation query",
+    "live webpage fetch"
+  ],
+  "risk_score": "1 - P(benign)",
+  "threshold": 0.5,
+  "graph_protocol": "Frozen offline token/domain statistics. Inference URLs are projected without updating graph/statistics.",
+  "important_note": "This is a final deployment model trained on the available full feature matrix. Scientific performance must be reported from domain-insulated CV, not from this full-training export.",
+  "limitations": [
+    "Predictions are probabilistic and should not be treated as absolute truth.",
+    "Backend feature extraction must exactly match the exported feature schema.",
+    "If backend cannot reproduce all URL-only features, predictions will be unreliable.",
+    "Live inference must not perform DNS, WHOIS, HTML fetching, screenshots, or reputation lookup."
+  ]
+}

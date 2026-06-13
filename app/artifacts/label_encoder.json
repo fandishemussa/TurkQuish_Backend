@@ -1,0 +1,40 @@
+{
+  "label_type": "dataframe_derived_5class_mapping",
+  "created_at": "2026-06-10T19:59:58.528886Z",
+  "classes": [
+    "benign",
+    "phishing",
+    "malware",
+    "scam",
+    "other_malicious"
+  ],
+  "id_to_label": {
+    "0": "benign",
+    "1": "phishing",
+    "2": "malware",
+    "3": "scam",
+    "4": "other_malicious"
+  },
+  "label_to_id": {
+    "benign": 0,
+    "phishing": 1,
+    "malware": 2,
+    "scam": 3,
+    "other_malicious": 4
+  },
+  "model_classes_raw_order": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "model_classes_label_order": [
+    "benign",
+    "phishing",
+    "malware",
+    "scam",
+    "other_malicious"
+  ],
+  "probability_order_note": "predict_proba columns follow model.classes_. Use model_classes_label_order to map probability columns correctly."
+}

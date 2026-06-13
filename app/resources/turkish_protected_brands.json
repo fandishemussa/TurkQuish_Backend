@@ -1,0 +1,1298 @@
+{
+  "version": "turkquish-protected-turkish-brands-v1",
+  "description": "Curated seed registry of high-risk Turkish brands, public platforms, telecoms, banks, e-commerce, cargo, crypto/streaming, and major universities for URL-only impersonation detection. Not exhaustive; extend locally as needed.",
+  "entities": [
+    {
+      "name": "Konya Technical University",
+      "category": "university",
+      "aliases": [
+        "ktun",
+        "konya teknik universitesi",
+        "konya teknik üniversitesi",
+        "konya technical university"
+      ],
+      "official_domains": [
+        "ktun.edu.tr"
+      ]
+    },
+    {
+      "name": "Middle East Technical University",
+      "category": "university",
+      "aliases": [
+        "metu",
+        "odtu",
+        "odtü",
+        "orta dogu teknik universitesi",
+        "orta doğu teknik üniversitesi"
+      ],
+      "official_domains": [
+        "metu.edu.tr",
+        "odtu.edu.tr"
+      ]
+    },
+    {
+      "name": "Istanbul Technical University",
+      "category": "university",
+      "aliases": [
+        "itu",
+        "itü",
+        "istanbul teknik universitesi",
+        "istanbul teknik üniversitesi"
+      ],
+      "official_domains": [
+        "itu.edu.tr"
+      ]
+    },
+    {
+      "name": "Boğaziçi University",
+      "category": "university",
+      "aliases": [
+        "boun",
+        "bogazici",
+        "boğaziçi",
+        "bogazici universitesi",
+        "boğaziçi üniversitesi"
+      ],
+      "official_domains": [
+        "boun.edu.tr"
+      ]
+    },
+    {
+      "name": "Hacettepe University",
+      "category": "university",
+      "aliases": [
+        "hacettepe",
+        "hacettepe universitesi",
+        "hacettepe üniversitesi"
+      ],
+      "official_domains": [
+        "hacettepe.edu.tr"
+      ]
+    },
+    {
+      "name": "Ankara University",
+      "category": "university",
+      "aliases": [
+        "ankara universitesi",
+        "ankara üniversitesi"
+      ],
+      "official_domains": [
+        "ankara.edu.tr"
+      ]
+    },
+    {
+      "name": "Istanbul University",
+      "category": "university",
+      "aliases": [
+        "istanbul universitesi",
+        "istanbul üniversitesi"
+      ],
+      "official_domains": [
+        "istanbul.edu.tr"
+      ]
+    },
+    {
+      "name": "Gazi University",
+      "category": "university",
+      "aliases": [
+        "gazi universitesi",
+        "gazi üniversitesi"
+      ],
+      "official_domains": [
+        "gazi.edu.tr"
+      ]
+    },
+    {
+      "name": "Ege University",
+      "category": "university",
+      "aliases": [
+        "ege universitesi",
+        "ege üniversitesi"
+      ],
+      "official_domains": [
+        "ege.edu.tr"
+      ]
+    },
+    {
+      "name": "Selçuk University",
+      "category": "university",
+      "aliases": [
+        "selcuk",
+        "selçuk",
+        "selcuk universitesi",
+        "selçuk üniversitesi"
+      ],
+      "official_domains": [
+        "selcuk.edu.tr"
+      ]
+    },
+    {
+      "name": "Karadeniz Technical University",
+      "category": "university",
+      "aliases": [
+        "ktu",
+        "ktü",
+        "karadeniz teknik universitesi",
+        "karadeniz teknik üniversitesi"
+      ],
+      "official_domains": [
+        "ktu.edu.tr"
+      ]
+    },
+    {
+      "name": "Dokuz Eylül University",
+      "category": "university",
+      "aliases": [
+        "deu",
+        "deü",
+        "dokuz eylul",
+        "dokuz eylül",
+        "dokuz eylul universitesi",
+        "dokuz eylül üniversitesi"
+      ],
+      "official_domains": [
+        "deu.edu.tr"
+      ]
+    },
+    {
+      "name": "Yıldız Technical University",
+      "category": "university",
+      "aliases": [
+        "ytu",
+        "ytü",
+        "yildiz teknik universitesi",
+        "yıldız teknik üniversitesi"
+      ],
+      "official_domains": [
+        "ytu.edu.tr"
+      ]
+    },
+    {
+      "name": "Marmara University",
+      "category": "university",
+      "aliases": [
+        "marmara universitesi",
+        "marmara üniversitesi"
+      ],
+      "official_domains": [
+        "marmara.edu.tr"
+      ]
+    },
+    {
+      "name": "Sakarya University",
+      "category": "university",
+      "aliases": [
+        "sakarya universitesi",
+        "sakarya üniversitesi"
+      ],
+      "official_domains": [
+        "sakarya.edu.tr"
+      ]
+    },
+    {
+      "name": "Akdeniz University",
+      "category": "university",
+      "aliases": [
+        "akdeniz universitesi",
+        "akdeniz üniversitesi"
+      ],
+      "official_domains": [
+        "akdeniz.edu.tr"
+      ]
+    },
+    {
+      "name": "Erciyes University",
+      "category": "university",
+      "aliases": [
+        "erciyes universitesi",
+        "erciyes üniversitesi"
+      ],
+      "official_domains": [
+        "erciyes.edu.tr"
+      ]
+    },
+    {
+      "name": "Bilkent University",
+      "category": "university",
+      "aliases": [
+        "bilkent",
+        "bilkent universitesi",
+        "bilkent üniversitesi"
+      ],
+      "official_domains": [
+        "bilkent.edu.tr"
+      ]
+    },
+    {
+      "name": "Koç University",
+      "category": "university",
+      "aliases": [
+        "koc universitesi",
+        "koç üniversitesi",
+        "koc university",
+        "koç university"
+      ],
+      "official_domains": [
+        "ku.edu.tr",
+        "koc.edu.tr"
+      ]
+    },
+    {
+      "name": "Sabancı University",
+      "category": "university",
+      "aliases": [
+        "sabanci",
+        "sabancı",
+        "sabanci universitesi",
+        "sabancı üniversitesi"
+      ],
+      "official_domains": [
+        "sabanciuniv.edu",
+        "sabanciuniv.edu.tr"
+      ]
+    },
+    {
+      "name": "Garanti BBVA",
+      "category": "bank",
+      "aliases": [
+        "garanti",
+        "garantibbva",
+        "garanti bbva"
+      ],
+      "official_domains": [
+        "garantibbva.com.tr",
+        "garanti.com.tr"
+      ]
+    },
+    {
+      "name": "Akbank",
+      "category": "bank",
+      "aliases": [
+        "akbank"
+      ],
+      "official_domains": [
+        "akbank.com"
+      ]
+    },
+    {
+      "name": "Türkiye İş Bankası",
+      "category": "bank",
+      "aliases": [
+        "isbank",
+        "işbank",
+        "isbankasi",
+        "işbankası",
+        "turkiye is bankasi",
+        "türkiye iş bankası"
+      ],
+      "official_domains": [
+        "isbank.com.tr"
+      ]
+    },
+    {
+      "name": "Yapı Kredi",
+      "category": "bank",
+      "aliases": [
+        "yapikredi",
+        "yapıkredi",
+        "yapi kredi",
+        "yapı kredi"
+      ],
+      "official_domains": [
+        "yapikredi.com.tr"
+      ]
+    },
+    {
+      "name": "Ziraat Bankası",
+      "category": "bank",
+      "aliases": [
+        "ziraat",
+        "ziraatbank",
+        "ziraatbankasi",
+        "ziraatbankası",
+        "ziraat bankasi",
+        "ziraat bankası"
+      ],
+      "official_domains": [
+        "ziraatbank.com.tr"
+      ]
+    },
+    {
+      "name": "Halkbank",
+      "category": "bank",
+      "aliases": [
+        "halkbank",
+        "halkbankasi",
+        "halkbankası",
+        "halk bank"
+      ],
+      "official_domains": [
+        "halkbank.com.tr"
+      ]
+    },
+    {
+      "name": "VakıfBank",
+      "category": "bank",
+      "aliases": [
+        "vakifbank",
+        "vakıfbank",
+        "vakif bank",
+        "vakıf bank"
+      ],
+      "official_domains": [
+        "vakifbank.com.tr"
+      ]
+    },
+    {
+      "name": "DenizBank",
+      "category": "bank",
+      "aliases": [
+        "denizbank",
+        "deniz bank"
+      ],
+      "official_domains": [
+        "denizbank.com"
+      ]
+    },
+    {
+      "name": "QNB Finansbank",
+      "category": "bank",
+      "aliases": [
+        "finansbank",
+        "qnbfinansbank",
+        "qnb finansbank"
+      ],
+      "official_domains": [
+        "qnbfinansbank.com"
+      ]
+    },
+    {
+      "name": "TEB",
+      "category": "bank",
+      "aliases": [
+        "teb",
+        "turk ekonomi bankasi",
+        "türk ekonomi bankası"
+      ],
+      "official_domains": [
+        "teb.com.tr"
+      ]
+    },
+    {
+      "name": "Kuveyt Türk",
+      "category": "bank",
+      "aliases": [
+        "kuveytturk",
+        "kuveyttürk",
+        "kuveyt turk",
+        "kuveyt türk"
+      ],
+      "official_domains": [
+        "kuveytturk.com.tr"
+      ]
+    },
+    {
+      "name": "Albaraka Türk",
+      "category": "bank",
+      "aliases": [
+        "albaraka",
+        "albarakaturk",
+        "albarakatürk",
+        "albaraka turk",
+        "albaraka türk"
+      ],
+      "official_domains": [
+        "albaraka.com.tr"
+      ]
+    },
+    {
+      "name": "Şekerbank",
+      "category": "bank",
+      "aliases": [
+        "sekerbank",
+        "şekerbank"
+      ],
+      "official_domains": [
+        "sekerbank.com.tr"
+      ]
+    },
+    {
+      "name": "Odeabank",
+      "category": "bank",
+      "aliases": [
+        "odeabank"
+      ],
+      "official_domains": [
+        "odeabank.com.tr"
+      ]
+    },
+    {
+      "name": "Anadolubank",
+      "category": "bank",
+      "aliases": [
+        "anadolubank"
+      ],
+      "official_domains": [
+        "anadolubank.com.tr"
+      ]
+    },
+    {
+      "name": "Fibabanka",
+      "category": "bank",
+      "aliases": [
+        "fibabanka"
+      ],
+      "official_domains": [
+        "fibabanka.com.tr"
+      ]
+    },
+    {
+      "name": "Enpara",
+      "category": "fintech",
+      "aliases": [
+        "enpara"
+      ],
+      "official_domains": [
+        "enpara.com"
+      ]
+    },
+    {
+      "name": "Papara",
+      "category": "fintech",
+      "aliases": [
+        "papara"
+      ],
+      "official_domains": [
+        "papara.com"
+      ]
+    },
+    {
+      "name": "Tosla",
+      "category": "fintech",
+      "aliases": [
+        "tosla"
+      ],
+      "official_domains": [
+        "tosla.com"
+      ]
+    },
+    {
+      "name": "İninal",
+      "category": "fintech",
+      "aliases": [
+        "ininal",
+        "ininal kart",
+        "ininalkart"
+      ],
+      "official_domains": [
+        "ininal.com"
+      ]
+    },
+    {
+      "name": "Paycell",
+      "category": "fintech",
+      "aliases": [
+        "paycell"
+      ],
+      "official_domains": [
+        "paycell.com.tr"
+      ]
+    },
+    {
+      "name": "Sipay",
+      "category": "fintech",
+      "aliases": [
+        "sipay"
+      ],
+      "official_domains": [
+        "sipay.com.tr"
+      ]
+    },
+    {
+      "name": "N Kolay",
+      "category": "fintech",
+      "aliases": [
+        "nkolay",
+        "n kolay"
+      ],
+      "official_domains": [
+        "nkolay.com"
+      ]
+    },
+    {
+      "name": "Türkiye Finans",
+      "category": "bank",
+      "aliases": [
+        "turkiyefinans",
+        "türkiyefinans",
+        "turkiye finans",
+        "türkiye finans"
+      ],
+      "official_domains": [
+        "turkiyefinans.com.tr"
+      ]
+    },
+    {
+      "name": "Vakıf Katılım",
+      "category": "bank",
+      "aliases": [
+        "vakifkatilim",
+        "vakıfkatılım",
+        "vakif katilim",
+        "vakıf katılım"
+      ],
+      "official_domains": [
+        "vakifkatilim.com.tr"
+      ]
+    },
+    {
+      "name": "Ziraat Katılım",
+      "category": "bank",
+      "aliases": [
+        "ziraatkatilim",
+        "ziraatkatılım",
+        "ziraat katilim",
+        "ziraat katılım"
+      ],
+      "official_domains": [
+        "ziraatkatilim.com.tr"
+      ]
+    },
+    {
+      "name": "Emlak Katılım",
+      "category": "bank",
+      "aliases": [
+        "emlakkatilim",
+        "emlakkatılım",
+        "emlak katilim",
+        "emlak katılım"
+      ],
+      "official_domains": [
+        "emlakkatilim.com.tr"
+      ]
+    },
+    {
+      "name": "e-Devlet Kapısı",
+      "category": "government",
+      "aliases": [
+        "edevlet",
+        "e-devlet",
+        "turkiye gov",
+        "türkiye gov"
+      ],
+      "official_domains": [
+        "turkiye.gov.tr"
+      ]
+    },
+    {
+      "name": "Türksat",
+      "category": "government",
+      "aliases": [
+        "turksat",
+        "türksat"
+      ],
+      "official_domains": [
+        "turksat.com.tr"
+      ]
+    },
+    {
+      "name": "e-Nabız",
+      "category": "government",
+      "aliases": [
+        "enabiz",
+        "enabız",
+        "e-nabiz",
+        "e-nabız"
+      ],
+      "official_domains": [
+        "enabiz.gov.tr"
+      ]
+    },
+    {
+      "name": "MHRS",
+      "category": "government",
+      "aliases": [
+        "mhrs",
+        "merkezi hekim randevu sistemi"
+      ],
+      "official_domains": [
+        "mhrs.gov.tr"
+      ]
+    },
+    {
+      "name": "SGK",
+      "category": "government",
+      "aliases": [
+        "sgk",
+        "sosyal guvenlik kurumu",
+        "sosyal güvenlik kurumu"
+      ],
+      "official_domains": [
+        "sgk.gov.tr"
+      ]
+    },
+    {
+      "name": "Gelir İdaresi Başkanlığı",
+      "category": "government",
+      "aliases": [
+        "gib",
+        "geliridaresi",
+        "gelir idaresi"
+      ],
+      "official_domains": [
+        "gib.gov.tr"
+      ]
+    },
+    {
+      "name": "TÜVTÜRK",
+      "category": "public_service",
+      "aliases": [
+        "tuvturk",
+        "tüvtürk"
+      ],
+      "official_domains": [
+        "tuvturk.com.tr"
+      ]
+    },
+    {
+      "name": "Kızılay",
+      "category": "ngo",
+      "aliases": [
+        "kizilay",
+        "kızılay",
+        "turk kizilay",
+        "türk kızılay"
+      ],
+      "official_domains": [
+        "kizilay.org.tr"
+      ]
+    },
+    {
+      "name": "İŞKUR",
+      "category": "government",
+      "aliases": [
+        "iskur",
+        "işkur"
+      ],
+      "official_domains": [
+        "iskur.gov.tr"
+      ]
+    },
+    {
+      "name": "MEBBİS",
+      "category": "government",
+      "aliases": [
+        "mebbis"
+      ],
+      "official_domains": [
+        "mebbis.meb.gov.tr"
+      ]
+    },
+    {
+      "name": "Türkiye Bursları",
+      "category": "government",
+      "aliases": [
+        "turkiyeburslari",
+        "türkiyebursları",
+        "turkiye burslari",
+        "türkiye bursları"
+      ],
+      "official_domains": [
+        "turkiyeburslari.gov.tr"
+      ]
+    },
+    {
+      "name": "UYAP",
+      "category": "government",
+      "aliases": [
+        "uyap",
+        "uyapvatandas",
+        "uyapavukat"
+      ],
+      "official_domains": [
+        "uyap.gov.tr"
+      ]
+    },
+    {
+      "name": "Web Tapu",
+      "category": "government",
+      "aliases": [
+        "webtapu",
+        "web tapu"
+      ],
+      "official_domains": [
+        "webtapu.tkgm.gov.tr"
+      ]
+    },
+    {
+      "name": "BTK Akademi",
+      "category": "government",
+      "aliases": [
+        "btkakademi",
+        "btk akademi"
+      ],
+      "official_domains": [
+        "btkakademi.gov.tr"
+      ]
+    },
+    {
+      "name": "Göç İdaresi",
+      "category": "government",
+      "aliases": [
+        "gocidaresi",
+        "göçidaresi",
+        "goc idaresi",
+        "göç idaresi"
+      ],
+      "official_domains": [
+        "goc.gov.tr"
+      ]
+    },
+    {
+      "name": "Sağlık Bakanlığı",
+      "category": "government",
+      "aliases": [
+        "saglikbakanligi",
+        "sağlıkbakanlığı",
+        "saglik bakanligi",
+        "sağlık bakanlığı"
+      ],
+      "official_domains": [
+        "saglik.gov.tr"
+      ]
+    },
+    {
+      "name": "Ticaret Bakanlığı",
+      "category": "government",
+      "aliases": [
+        "ticaretbakanligi",
+        "ticaret bakanligi",
+        "ticaret bakanlığı"
+      ],
+      "official_domains": [
+        "ticaret.gov.tr"
+      ]
+    },
+    {
+      "name": "Anadolu Ajansı",
+      "category": "media",
+      "aliases": [
+        "anadoluajansi",
+        "anadolu ajansi",
+        "anadolu ajansı"
+      ],
+      "official_domains": [
+        "aa.com.tr"
+      ]
+    },
+    {
+      "name": "Turkcell",
+      "category": "telecom",
+      "aliases": [
+        "turkcell",
+        "türkcell"
+      ],
+      "official_domains": [
+        "turkcell.com.tr"
+      ]
+    },
+    {
+      "name": "Türk Telekom",
+      "category": "telecom",
+      "aliases": [
+        "turktelekom",
+        "türktelekom",
+        "turk telekom",
+        "türk telekom",
+        "ttnet"
+      ],
+      "official_domains": [
+        "turktelekom.com.tr",
+        "ttnet.com.tr"
+      ]
+    },
+    {
+      "name": "Vodafone Türkiye",
+      "category": "telecom",
+      "aliases": [
+        "vodafone",
+        "vodafone tr",
+        "vodafone turkiye",
+        "vodafone türkiye"
+      ],
+      "official_domains": [
+        "vodafone.com.tr"
+      ]
+    },
+    {
+      "name": "Superonline",
+      "category": "telecom",
+      "aliases": [
+        "superonline"
+      ],
+      "official_domains": [
+        "superonline.net",
+        "turkcell.com.tr"
+      ]
+    },
+    {
+      "name": "TürkNet",
+      "category": "telecom",
+      "aliases": [
+        "turknet",
+        "türknet"
+      ],
+      "official_domains": [
+        "turk.net"
+      ]
+    },
+    {
+      "name": "Millenicom",
+      "category": "telecom",
+      "aliases": [
+        "millenicom"
+      ],
+      "official_domains": [
+        "millenicom.com.tr"
+      ]
+    },
+    {
+      "name": "Netgsm",
+      "category": "telecom",
+      "aliases": [
+        "netgsm"
+      ],
+      "official_domains": [
+        "netgsm.com.tr"
+      ]
+    },
+    {
+      "name": "Trendyol",
+      "category": "ecommerce",
+      "aliases": [
+        "trendyol",
+        "trendyolyemek",
+        "trendyol yemek",
+        "trendyolexpress",
+        "trendyol express"
+      ],
+      "official_domains": [
+        "trendyol.com",
+        "trendyolgo.com",
+        "trendyolexpress.com"
+      ]
+    },
+    {
+      "name": "Hepsiburada",
+      "category": "ecommerce",
+      "aliases": [
+        "hepsiburada",
+        "hepsijet"
+      ],
+      "official_domains": [
+        "hepsiburada.com",
+        "hepsijet.com"
+      ]
+    },
+    {
+      "name": "n11",
+      "category": "ecommerce",
+      "aliases": [
+        "n11"
+      ],
+      "official_domains": [
+        "n11.com"
+      ]
+    },
+    {
+      "name": "Sahibinden",
+      "category": "ecommerce",
+      "aliases": [
+        "sahibinden"
+      ],
+      "official_domains": [
+        "sahibinden.com"
+      ]
+    },
+    {
+      "name": "Çiçeksepeti",
+      "category": "ecommerce",
+      "aliases": [
+        "ciceksepeti",
+        "çiçeksepeti",
+        "cicek sepeti",
+        "çiçek sepeti"
+      ],
+      "official_domains": [
+        "ciceksepeti.com"
+      ]
+    },
+    {
+      "name": "Yemeksepeti",
+      "category": "delivery",
+      "aliases": [
+        "yemeksepeti",
+        "yemek sepeti"
+      ],
+      "official_domains": [
+        "yemeksepeti.com"
+      ]
+    },
+    {
+      "name": "Getir",
+      "category": "delivery",
+      "aliases": [
+        "getir",
+        "getirbuyuk",
+        "getirbüyük",
+        "getir büyük",
+        "getiryemek",
+        "getir yemek"
+      ],
+      "official_domains": [
+        "getir.com"
+      ]
+    },
+    {
+      "name": "Migros",
+      "category": "retail",
+      "aliases": [
+        "migros",
+        "migroshemen",
+        "migros hemen"
+      ],
+      "official_domains": [
+        "migros.com.tr"
+      ]
+    },
+    {
+      "name": "CarrefourSA",
+      "category": "retail",
+      "aliases": [
+        "carrefour",
+        "carrefoursa"
+      ],
+      "official_domains": [
+        "carrefoursa.com"
+      ]
+    },
+    {
+      "name": "Şok Market",
+      "category": "retail",
+      "aliases": [
+        "sokmarket",
+        "şokmarket",
+        "sok market",
+        "şok market"
+      ],
+      "official_domains": [
+        "sokmarket.com.tr"
+      ]
+    },
+    {
+      "name": "Teknosa",
+      "category": "retail",
+      "aliases": [
+        "teknosa"
+      ],
+      "official_domains": [
+        "teknosa.com"
+      ]
+    },
+    {
+      "name": "Vatan Bilgisayar",
+      "category": "retail",
+      "aliases": [
+        "vatanbilgisayar",
+        "vatan bilgisayar"
+      ],
+      "official_domains": [
+        "vatanbilgisayar.com"
+      ]
+    },
+    {
+      "name": "MediaMarkt Türkiye",
+      "category": "retail",
+      "aliases": [
+        "mediamarkt",
+        "media markt"
+      ],
+      "official_domains": [
+        "mediamarkt.com.tr"
+      ]
+    },
+    {
+      "name": "Boyner",
+      "category": "retail",
+      "aliases": [
+        "boyner"
+      ],
+      "official_domains": [
+        "boyner.com.tr"
+      ]
+    },
+    {
+      "name": "LC Waikiki",
+      "category": "retail",
+      "aliases": [
+        "lcwaikiki",
+        "lc waikiki",
+        "lcw"
+      ],
+      "official_domains": [
+        "lcwaikiki.com"
+      ]
+    },
+    {
+      "name": "DeFacto",
+      "category": "retail",
+      "aliases": [
+        "defacto"
+      ],
+      "official_domains": [
+        "defacto.com.tr"
+      ]
+    },
+    {
+      "name": "Koton",
+      "category": "retail",
+      "aliases": [
+        "koton"
+      ],
+      "official_domains": [
+        "koton.com"
+      ]
+    },
+    {
+      "name": "Gratis",
+      "category": "retail",
+      "aliases": [
+        "gratis"
+      ],
+      "official_domains": [
+        "gratis.com"
+      ]
+    },
+    {
+      "name": "Watsons Türkiye",
+      "category": "retail",
+      "aliases": [
+        "watsons"
+      ],
+      "official_domains": [
+        "watsons.com.tr"
+      ]
+    },
+    {
+      "name": "Koçtaş",
+      "category": "retail",
+      "aliases": [
+        "koctas",
+        "koçtaş"
+      ],
+      "official_domains": [
+        "koctas.com.tr"
+      ]
+    },
+    {
+      "name": "Vivense",
+      "category": "retail",
+      "aliases": [
+        "vivense"
+      ],
+      "official_domains": [
+        "vivense.com"
+      ]
+    },
+    {
+      "name": "Obilet",
+      "category": "travel",
+      "aliases": [
+        "obilet"
+      ],
+      "official_domains": [
+        "obilet.com"
+      ]
+    },
+    {
+      "name": "Enuygun",
+      "category": "travel",
+      "aliases": [
+        "enuygun"
+      ],
+      "official_domains": [
+        "enuygun.com"
+      ]
+    },
+    {
+      "name": "Aras Kargo",
+      "category": "cargo",
+      "aliases": [
+        "araskargo",
+        "aras kargo"
+      ],
+      "official_domains": [
+        "araskargo.com.tr"
+      ]
+    },
+    {
+      "name": "Yurtiçi Kargo",
+      "category": "cargo",
+      "aliases": [
+        "yurticikargo",
+        "yurtiçikargo",
+        "yurtici kargo",
+        "yurtiçi kargo"
+      ],
+      "official_domains": [
+        "yurticikargo.com"
+      ]
+    },
+    {
+      "name": "MNG Kargo",
+      "category": "cargo",
+      "aliases": [
+        "mngkargo",
+        "mng kargo"
+      ],
+      "official_domains": [
+        "mngkargo.com.tr"
+      ]
+    },
+    {
+      "name": "Sürat Kargo",
+      "category": "cargo",
+      "aliases": [
+        "suratkargo",
+        "süratkargo",
+        "surat kargo",
+        "sürat kargo"
+      ],
+      "official_domains": [
+        "suratkargo.com.tr"
+      ]
+    },
+    {
+      "name": "PTT Kargo",
+      "category": "cargo",
+      "aliases": [
+        "pttkargo",
+        "ptt kargo",
+        "pttavm",
+        "ptt avm"
+      ],
+      "official_domains": [
+        "ptt.gov.tr",
+        "pttavm.com"
+      ]
+    },
+    {
+      "name": "Kolay Gelsin",
+      "category": "cargo",
+      "aliases": [
+        "kolaygelsin",
+        "kolay gelsin"
+      ],
+      "official_domains": [
+        "kolaygelsin.com"
+      ]
+    },
+    {
+      "name": "Sendeo",
+      "category": "cargo",
+      "aliases": [
+        "sendeo"
+      ],
+      "official_domains": [
+        "sendeo.com.tr"
+      ]
+    },
+    {
+      "name": "Paribu",
+      "category": "crypto",
+      "aliases": [
+        "paribu"
+      ],
+      "official_domains": [
+        "paribu.com"
+      ]
+    },
+    {
+      "name": "BtcTurk",
+      "category": "crypto",
+      "aliases": [
+        "btcturk",
+        "btc turk",
+        "btc türk"
+      ],
+      "official_domains": [
+        "btcturk.com"
+      ]
+    },
+    {
+      "name": "Binance TR",
+      "category": "crypto",
+      "aliases": [
+        "trbinance",
+        "binancetr",
+        "binance tr"
+      ],
+      "official_domains": [
+        "trbinance.com"
+      ]
+    },
+    {
+      "name": "Exxen",
+      "category": "streaming",
+      "aliases": [
+        "exxen"
+      ],
+      "official_domains": [
+        "exxen.com"
+      ]
+    },
+    {
+      "name": "BluTV",
+      "category": "streaming",
+      "aliases": [
+        "blutv",
+        "blu tv"
+      ],
+      "official_domains": [
+        "blutv.com"
+      ]
+    },
+    {
+      "name": "Tivibu",
+      "category": "streaming",
+      "aliases": [
+        "tivibu"
+      ],
+      "official_domains": [
+        "tivibu.com.tr"
+      ]
+    },
+    {
+      "name": "TV+",
+      "category": "streaming",
+      "aliases": [
+        "tvplus",
+        "tv plus"
+      ],
+      "official_domains": [
+        "tvplus.com.tr"
+      ]
+    },
+    {
+      "name": "PuhuTV",
+      "category": "streaming",
+      "aliases": [
+        "puhutv",
+        "puhu tv"
+      ],
+      "official_domains": [
+        "puhutv.com"
+      ]
+    }
+  ]
+}

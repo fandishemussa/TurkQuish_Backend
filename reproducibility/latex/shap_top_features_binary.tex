@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\caption{Top-15 features by mean $|$SHAP$|$ for the binary task (fold~0, HistGB). SHAP rank and permutation rank both reported for cross-method validation. Features dominated by graph and campaign-infrastructure signals are annotated.}
+\label{tab:shap_top_binary}
+\footnotesize
+\begin{tabular}{lrrrl}
+\toprule
+Feature & SHAP rank & Perm rank & $|\Delta|$ & Group \\
+\midrule
+domain\_ngram\_cluster & 1 & 1 & 0 & Graph \\
+path\_len & 2 & 2 & 0 & Lexical \\
+tld\_len & 3 & 3 & 0 & Lexical \\
+domain\_family\_size & 4 & 4 & 0 & Graph \\
+tld\_token\_cooccur & 5 & 8 & 3 & Graph \\
+max\_token\_cluster\_size & 6 & 5 & 1 & Graph \\
+registrant\_pattern\_score & 7 & 6 & 1 & Graph \\
+is\_suspicious\_tld & 8 & 9 & 1 & Lexical \\
+num\_dots & 9 & 7 & 2 & Lexical \\
+token\_centrality & 11 & 10 & 1 & Graph \\
+brand\_not\_in\_domain & 15 & 18 & 3 & Lexical \\
+campaign\_membership & 18 & 13 & 5 & Graph \\
+\bottomrule
+\end{tabular}
+\end{table}

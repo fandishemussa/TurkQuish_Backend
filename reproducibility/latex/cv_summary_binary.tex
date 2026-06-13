@@ -1,0 +1,17 @@
+\begin{table}
+\caption{Five-fold CV results for binary task (135 features, domain-insulated folds). Mean $\pm$ std reported across 5 folds. LogisticRegression uses StandardScaler; all tree models are scale-invariant.}
+\label{tab:cv_binary}
+\begin{tabular}{llllll}
+\toprule
+Model & Macro-F$_1$ & MCC & ROC-AUC & PR-AUC & Train (s) \\
+\midrule
+HistGB & $0.975\pm0.011$ & $0.950\pm0.022$ & $0.9987\pm0.0007$ & $1.000$ & 114 \\
+LightGBM & $0.974\pm0.008$ & $0.948\pm0.016$ & $0.9986\pm0.0007$ & $1.000$ & 37 \\
+XGBoost & $0.949\pm0.014$ & $0.901\pm0.026$ & $0.9982\pm0.0008$ & $1.000$ & 38 \\
+RandomForest & $0.961\pm0.006$ & $0.923\pm0.012$ & $0.9970\pm0.0008$ & $0.999$ & 135 \\
+ExtraTrees & $0.870\pm0.009$ & $0.760\pm0.017$ & $0.9853\pm0.0030$ & $0.997$ & 95 \\
+LogisticRegression & $0.908\pm0.016$ & $0.823\pm0.030$ & $0.9825\pm0.0075$ & $0.996$ & 94 \\
+ComplementNB & $0.698\pm0.016$ & $0.483\pm0.026$ & $0.9008\pm0.0111$ & $0.980$ & 19 \\
+\bottomrule
+\end{tabular}
+\end{table}

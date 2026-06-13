@@ -1,0 +1,59 @@
+{
+  "created_at": "2026-06-10T20:30:00.389195Z",
+  "checkpoint_path": "/content/drive/MyDrive/Colab Notebooks/Research/New_Dataset_May/url_transformer_best.pt",
+  "state_source": "raw_state_dict",
+  "n_tensors": 42,
+  "embed_key": "embed.weight",
+  "head_last_key": "head.3.weight",
+  "detected_layers": [
+    0,
+    1,
+    2
+  ],
+  "saved_vocab_size": 77,
+  "saved_d_model": 64,
+  "saved_n_classes": 5,
+  "saved_n_layers": 3,
+  "exported_files": [
+    "url_transformer.pt",
+    "char_vocab.json",
+    "transformer_config.json",
+    "label_encoder.json"
+  ],
+  "label_order": [
+    "benign",
+    "phishing",
+    "malware",
+    "scam",
+    "other_malicious"
+  ],
+  "config": {
+    "model_name": "URLTransformer",
+    "model_version": "url-transformer-5class-v1",
+    "created_at": "2026-06-10T20:30:00.630239Z",
+    "task": "five_class_url_character_classification",
+    "max_len": 200,
+    "n_classes": 5,
+    "vocab_size": 77,
+    "embed_dim": 64,
+    "d_model": 64,
+    "heads": 4,
+    "layers": 3,
+    "d_ff": 128,
+    "dropout": 0.1,
+    "pad_idx": 0,
+    "unk_idx": 1,
+    "activation": "gelu",
+    "pooling": "mean_pool_plus_max_pool",
+    "input": "raw_url_lowercase_truncated_to_max_len",
+    "url_only": true,
+    "forbidden_runtime_actions": [
+      "DNS lookup",
+      "WHOIS lookup",
+      "HTML retrieval",
+      "webpage screenshot",
+      "third-party reputation query",
+      "live webpage fetch"
+    ]
+  }
+}

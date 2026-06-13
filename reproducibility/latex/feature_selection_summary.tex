@@ -1,0 +1,32 @@
+\begin{table}[htbp]
+\centering
+\caption{Top-20 features by three-method consensus ranking (|Pearson $r$|, mutual information, permutation importance). All ranks are on a 1--135 scale (lower = more important). Consensus = mean of three ranks; features with low consensus and low variance are candidates for pruning in latency-critical deployment scenarios.}
+\label{tab:feature_selection_summary}
+\footnotesize
+\begin{tabular}{llrrrrl}
+\toprule
+Feature & Group & $|r|$ rank & MI rank & Perm rank & Consensus & Variance \\
+\midrule
+path\_len & Lexical & 2 & 1 & 4 & 4.7 & 367.7075 \\
+token\_centrality & Graph & 23 & 8 & 40 & 12.3 & 31620363.4603 \\
+num\_slashes & Lexical & 4 & 4 & 68 & 13.0 & 1.4734 \\
+max\_token\_cluster\_size & Graph & 34 & 2 & 10 & 13.0 & 218768077.5154 \\
+tld\_len & Lexical & 8 & 5 & 6 & 13.7 & 1.64 \\
+path\_entropy & Lexical & 5 & 10 & 48 & 14.0 & 2.5419 \\
+num\_tokens & Lexical & 11 & 14 & 32 & 14.0 & 16.0807 \\
+num\_hyphens & Lexical & 3 & 21 & 41 & 16.0 & 3.7902 \\
+domain\_len & Lexical & 12 & 23 & 50 & 16.3 & 53.4236 \\
+min\_brand\_edit\_dist & Adversarial & 7 & 25 & 135 & 17.0 & 8.8396 \\
+shared\_token\_degree & Graph & 45 & 9 & 51 & 18.7 & 1079480031.2118 \\
+mean\_token\_len & Lexical & 24 & 13 & 28 & 19.3 & 6.4229 \\
+num\_dots & Lexical & 14 & 17 & 38 & 21.7 & 1.0108 \\
+tld\_token\_cooccur & Graph & 48 & 16 & 34 & 23.0 & 51157747.006 \\
+host\_pattern\_degree & Graph & 16 & 33 & 65 & 24.0 & 4.5166 \\
+path\_depth & Lexical & 17 & 28 & 130 & 25.7 & 1.1478 \\
+rare\_token\_count & Graph & 9 & 36 & 81 & 26.0 & 1.1327 \\
+domain\_entropy & Lexical & 26 & 11 & 13 & 26.7 & 0.3765 \\
+tr\_suffix\_count & TR-Ling & 6 & 35 & 53 & 28.3 & 0.3473 \\
+long\_random\_path & Adversarial & 1 & 18 & 80 & 28.7 & 0.0652 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,11 @@
+services:
+  turkquish-backend:
+    build: .
+    container_name: turkquish-backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    volumes:
+      - ./app/artifacts:/app/app/artifacts:ro
+      - ./turkquish.db:/app/turkquish.db

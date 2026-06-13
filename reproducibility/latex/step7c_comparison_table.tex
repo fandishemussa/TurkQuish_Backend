@@ -1,0 +1,26 @@
+\begin{table}[t]
+\centering
+\caption{Full model comparison on TUMC. Classical ML: 5-fold domain-insulated CV on 135 engineered features. Character-level deep learning: raw URL string, 5-fold CV. Binary AUC and 5-class macro-$F_1$ are reported separately. HistGB on engineered features dominates on the 5-class task; all models converge near the binary-AUC ceiling, confirming that the benign/malicious boundary is near-trivially separable.}
+\label{tab:model-comparison-full}
+\footnotesize
+\begin{tabular}{lrrrr}
+\toprule
+Model & \multicolumn{2}{c}{5-class} & \multicolumn{2}{c}{Binary} \\
+\cmidrule(r){2-3}\cmidrule(l){4-5}
+ & Macro-$F_1$ & MCC & AUC & Protocol \\
+\midrule
+\multicolumn{5}{l}{\textit{Engineered features (135 features after leaky exclusion)}} \\
+\midrule
+\textbf{HistGB} & \textbf{0.905} & \textbf{0.871} & \textbf{0.9987} & 5-fold CV \\
+XGBoost & 0.884 & --- & 0.9987 & 5-fold CV \\
+LightGBM & 0.878 & --- & 0.9987 & 5-fold CV \\
+RandomForest & 0.862 & --- & 1.0000 & 5-fold CV \\
+LogisticRegression & 0.297 & --- & 0.8936 & 5-fold CV \\
+\midrule
+\multicolumn{5}{l}{\textit{Character-level deep learning (raw URL string, no engineered features)}} \\
+\midrule
+CNN+BiLSTM & 0.983$\pm$0.002 & 0.977 & 1.000$\pm$0.000 & 5-fold CV \\
+URL-Transformer & 0.793$\pm$0.022 & 0.806 & 0.999$\pm$0.001 & 5-fold CV \\
+\bottomrule
+\end{tabular}
+\end{table}

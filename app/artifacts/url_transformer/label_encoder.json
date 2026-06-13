@@ -1,0 +1,33 @@
+{
+  "label_type": "canonical_class_enc",
+  "created_at": "2026-06-10T20:30:00.636750Z",
+  "classes": [
+    "benign",
+    "phishing",
+    "malware",
+    "scam",
+    "other_malicious"
+  ],
+  "model_classes_label_order": [
+    "benign",
+    "phishing",
+    "malware",
+    "scam",
+    "other_malicious"
+  ],
+  "id_to_label": {
+    "0": "benign",
+    "1": "phishing",
+    "2": "malware",
+    "3": "scam",
+    "4": "other_malicious"
+  },
+  "label_to_id": {
+    "benign": 0,
+    "phishing": 1,
+    "malware": 2,
+    "scam": 3,
+    "other_malicious": 4
+  },
+  "probability_order_note": "URL-Transformer softmax probabilities follow this exact class order. If the model was trained with a different label order, change CLASS_NAMES and regenerate this file."
+}

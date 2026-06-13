@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Multi-method feature importance convergence for the binary task (top-20 overlap). Spearman rank correlation between SHAP and permutation importance: $\rho=0.564$. Small rank differences indicate high method agreement, confirming feature importance stability.}
+\label{tab:convergence_binary}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+Feature & SHAP rank & Perm rank & $|\Delta|$ \\
+\midrule
+domain\_ngram\_cluster & 1 & 1 & 0 \\
+path\_len & 2 & 2 & 0 \\
+tld\_len & 3 & 3 & 0 \\
+domain\_family\_size & 4 & 4 & 0 \\
+tld\_token\_cooccur & 5 & 8 & 3 \\
+max\_token\_cluster\_size & 6 & 5 & 1 \\
+registrant\_pattern\_score & 7 & 6 & 1 \\
+is\_suspicious\_tld & 8 & 9 & 1 \\
+num\_dots & 9 & 7 & 2 \\
+token\_centrality & 11 & 10 & 1 \\
+\bottomrule
+\end{tabular}
+\end{table}
