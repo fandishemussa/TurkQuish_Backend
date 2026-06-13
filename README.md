@@ -6,7 +6,7 @@ The backend receives a decoded URL string from a client application, extracts UR
 
 TurkQuish is designed for **URL-only inference**. It does not query DNS, WHOIS, webpage HTML, screenshots, browser reputation services, or third-party security lookup APIs during inference.
 
----
+
 
 ## Overview
 
@@ -27,7 +27,7 @@ The backend supports:
 * prototype-level runtime instrumentation
 * small-scale backend load testing
 
----
+
 
 ## Key Features
 
@@ -86,7 +86,7 @@ The repository includes benchmarking scripts for:
 * small-scale concurrent API load testing
 * CSV output for manuscript-ready runtime tables
 
----
+
 
 ## Project Structure
 
@@ -112,8 +112,6 @@ Turkquish_Backend/
 ```
 
 The exact structure may vary depending on the current implementation.
-
----
 
 ## Installation
 
@@ -150,7 +148,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Configuration
 
@@ -167,7 +165,6 @@ RATE_LIMIT_REQUESTS_PER_MINUTE=100000
 
 For local benchmarking, increase the rate limit to avoid measuring rate-limit responses instead of backend runtime.
 
----
 
 ## Running the Backend
 
@@ -183,7 +180,7 @@ Open the API documentation:
 http://127.0.0.1:8000/docs
 ```
 
----
+
 
 ## Prediction Endpoint
 
@@ -237,7 +234,7 @@ Depending on the current schema, the URL field may be named `decodedUrl` or `url
 
 The exact response may vary depending on the current schema and enabled services.
 
----
+
 
 ## Runtime Benchmarking
 
@@ -286,7 +283,6 @@ The default concurrency levels are:
 
 These measurements are intended for prototype-level analysis and should not be interpreted as production-scale deployment results.
 
----
 
 ## Final Runtime Results Used in Manuscript
 
@@ -306,7 +302,6 @@ Summary:
 
 These results represent prototype-level runtime behaviour under an experimental environment, not production-scale field deployment.
 
----
 
 ## Small-Scale Load-Test Summary
 
@@ -335,7 +330,6 @@ The backend may include:
 
 The system is designed so that graph features used at inference time are based on frozen or inductive artifacts rather than network-time queries.
 
----
 
 ## Privacy and Security Notes
 
@@ -343,7 +337,7 @@ TurkQuish avoids external URL enrichment during inference. The backend does not 
 
 However, TurkQuish is a research prototype. It should not be treated as a complete replacement for enterprise-grade security gateways, browser protection systems, or human security judgment.
 
----
+
 
 ## Reproducibility
 
@@ -357,7 +351,7 @@ Recommended archival option:
 GitHub repository + Zenodo DOI
 ```
 
----
+
 
 ## Citation
 
@@ -372,7 +366,6 @@ If you use this repository, please cite the associated TurkQuish manuscript.
 }
 ```
 
----
 
 ## License
 
@@ -382,7 +375,6 @@ If you use this repository, please cite the associated TurkQuish manuscript.
 
 Do not publish sensitive datasets or malicious URLs unless redistribution is legally and ethically allowed.
 
----
 
 ## Disclaimer
 
